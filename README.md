@@ -1,7 +1,7 @@
 # counterfactual-visualization
 Visualize counterfactuals of small sized graphs.
 
-## Create Conda Environment
+## Create conda environment
 - Create conda env : `conda env create -f gnn.yaml`
 - Run : `conda activate gnn` prior to using this repo.
 
