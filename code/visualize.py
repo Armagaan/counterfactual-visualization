@@ -6,12 +6,14 @@ import pickle
 import shutil
 import sys
 
+import matplotlib
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 
 np.random.seed(7)
 plt.style.use('seaborn')
+matplotlib.rcParams['figure.figsize'] = (8, 6)
 
 # -----> Checks
 if len(sys.argv) != 3:
