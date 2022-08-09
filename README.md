@@ -1,12 +1,12 @@
 # graph-visualization
-Visualize aesthetically pleasing small sized graphs.
+Visualize small sized graphs.
 
 ## Create Conda Environment
 - Create conda env : `conda env create -f gnn.yaml`
 - Run : `conda activate gnn` prior to using this repo.
 
 ## Inputs
-- A pickled nested dictionary of the form : `{'node_id' : {'target' :..., 'adj' :..., 'cfs' :...}}`
+- A pickled nested dictionary of the form : `{'node_id': {'target': ..., 'adj': ..., 'cfs': ...}}`
     - `node_id` : The target node's ID in the graph. This will be different from `target` in case a subadjacency is provided for `adj` and a remapping of nodes of was done while getting the subadjacency.
     - `adj` : Adjacency matrix
     - `target` : Target node
