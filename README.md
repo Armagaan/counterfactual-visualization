@@ -19,4 +19,4 @@ Visualize counterfactuals of small sized graphs.
 - Edges should not be repeated i.e. in an undirected graph each edge is listed twice e.g., `(1,2)` and `(2,1)`. Only one of the entries should be provided.
 
 ## Output
-- A PNG image with dimensions : `3 * 800 * 600`
+- A PNG image with dimensions : `800 x 600`
