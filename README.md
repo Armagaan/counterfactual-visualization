@@ -27,6 +27,6 @@ Visualize counterfactuals of small sized graphs.
 - A PNG image with dimensions : `800 x 600`.
 
 ## Note
-- In case the adjacency is a subgraph and not the full graph, and the process involved mapping of node IDs:
-    - Please provide `target` as the mapped node ID of `node_id`.
-    - Please provide the mapped `source` and `destionation` node IDs in the list of CFs.
+In case the `adj` is a subgraph and not the full graph, and the process involved mapping of node IDs:
+- Please provide `target` as the mapped node ID of `node_id`.
+- Please provide the mapped `source` and `destionation` node IDs in the list of CFs.
