@@ -1,7 +1,7 @@
 # counterfactual-visualization
 Visualize counterfactuals of small sized graphs.
 
-<img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/graph_602.png?raw=true" alt="Graph" width="250"/> <img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/colored_graph_602.png?raw=true" alt="Graph" width="250"/> <img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/perturbed_graph_602.png?raw=true" alt="Graph" width="250"/>
+<img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/graph_602.png?raw=true" alt="Graph" width="300"/> <img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/colored_graph_602.png?raw=true" alt="Graph" width="300"/> <img src="https://github.com/Armagaan/counterfactual-visualization/blob/main/perturbed_graph_602.png?raw=true" alt="Graph" width="300"/>
 
 ## Create conda environment
 - Create conda env : `conda env create -f gnn.yaml`
