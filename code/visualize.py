@@ -40,8 +40,10 @@ for node_id in data:
             data[node_id]['cfs'][i] = [src, dest, action]
 
 # -----> Visualize
-THRESHOLD = 15
+THRESHOLD = 20
 LINE_WIDTH = 2
+TARGET_COLOR = "#F28C28"
+NON_TARGET_COLOR = "#00308F"
 
 ## -----> Graph
 # Folder to store plots.
@@ -62,9 +64,9 @@ for node_id in data:
     color_map = list()
     for node in graph:
         if node == data[node_id]['target']:
-            color_map.append("#F28C28")
+            color_map.append(TARGET_COLOR)
         else:
-            color_map.append("#00308F")
+            color_map.append(NON_TARGET_COLOR)
 
     # Draw and save the plot.
     nx.draw(
@@ -100,9 +102,9 @@ for node_id in data:
     color_map = list()
     for node in graph:
         if node == data[node_id]['target']:
-            color_map.append("#F28C28")
+            color_map.append(TARGET_COLOR)
         else:
-            color_map.append("#00308F")
+            color_map.append(NON_TARGET_COLOR)
 
     # Introduce cf edges where the action == add.
     cfs = data[node_id]['cfs']
@@ -163,9 +165,9 @@ for node_id in data:
     color_map = list()
     for node in graph:
         if node == data[node_id]['target']:
-            color_map.append("#F28C28")
+            color_map.append(TARGET_COLOR)
         else:
-            color_map.append("#00308F")
+            color_map.append(NON_TARGET_COLOR)
 
     # Perturb the graph
     cfs = data[node_id]['cfs']
